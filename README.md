@@ -1,11 +1,9 @@
 # Lophotrochozoa_phylogenomics_scripts_06-2015
 Script used for lophotrochozoan phylogenomics--This script was tested on Ubuntu Linux. Absolute paths (where used) may need to be edited.
 
-Lophotrochozoa_orthologyScript_HaMSTR13_parallel.sh takes the output of HAMSTR and performs several steps to remove groups and sequences that are not suitable for phylogenomic analysis.
+Lophotrochozoa_orthologyScript_HaMSTR13.sh takes the output of HAMSTR and performs several steps to remove groups and sequences that are not suitable for phylogenomic analysis.
 
 The final product of this script is a set of trimmed amino acid alignments representing putatively orthologous groups suitable for phylogenomic analysis.
-
-This version of the script requires GNU parallel (http://www.gnu.org/software/parallel/) be installed on your machine.
 
 A number of programs must also be in the path including Aliscore, Alicut, MAFFT, PhyloTreePruner, HaMStR (for nentferner.pl), and the uniqHaplo.pl script.
 
